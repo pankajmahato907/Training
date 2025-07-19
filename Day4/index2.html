@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form (Task1)</title>
+    <style >
+        table{
+            border-collapse: collapse;  
+            width: 100%;
+        }
+        tr:nth-child(even){
+            background-color: red;
+        }
+         tr:nth-child(odd){
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <table border="2">
+            <tr>
+                <td><label for="Fullname">FullName :</label></td>
+                <td><input type="text" name="Fullname" placeholder="Enter your first name"></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Email :</label></td>
+                <td><input type="email" name="Fullname" placeholder="Enter your Email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" placeholder="Enter password"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="phone">Phone:</label></td>
+                <td><input type="tel" id="phone" name="phone" placeholder="Enter phone"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Gender">Gender</label></td>
+                <td>
+                    <input type="radio" name="Male" value="Male"> Male
+                    <input type="radio" name="Gender" value="Male"> Male
+                    <input type="radio" name="Others" value="Male"> Others
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="dob">Date of Birth:</label></td>
+                <td><input type="date"  name="dob"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Age" >Age :</label></td>
+                <td><input type="number" name="age" placeholder="Enter your age"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Class">Select Class :</label></td>
+                <td>
+                    <select name="gender" >
+                    <option>--Select--</option>
+                    <option value="1">10</option>
+                    <option value="2">9</option>
+                    <option value="3">8</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="Subjects">Subjects</label></td>
+                <td>
+                <input type="checkbox" name="Science">Science
+                <input type="checkbox" name="Science">English
+                <input type="checkbox" name="Science">Social
+                <input type="checkbox" name="Science">Math
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="photo">Upload Photo:</label></td>
+                <td><input type="file" id="photo" name="photo"></td>
+            </tr>
+
+            <tr>
+                <td><label for="color">Favorite Color:</label></td>
+                <td><input type="color" id="color" name="color"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Address">Address</label></td>
+                <td><textarea  name="address" placeholder="Enter address"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label for="Website">Website :</label></td>
+                <td><input type="url" placeholder="Enter URL here"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Satisfaction">Satisfaction :</label></td>
+                <td><input type="range" ></td>
+            </tr>
+
+            <tr>
+                <td><label for="Time">Preferred Time</label></td>
+                <td><input type="time"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Clear">
+                </td>
+            </tr>
+
+
+        </table>
+    </form>
+</body>
+</html>
