@@ -1,0 +1,18 @@
+p{
+    background-color: aquamarine;
+}
+.box-model{
+    background-color: blueviolet;
+    /* padding: 20px 20px 20px 20px;  top ,right, down, left */
+    /* padding: 20px 20px; top button, right left*/
+    /* padding: 20px 30px 40px; right-left , button */
+    /* padding: 20px; top-button, right-left */
+    padding: 20px;
+
+    margin: 10px;
+}
+#box{
+    color: chartreuse;
+    background-color: chocolate;
+}
+
