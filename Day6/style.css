@@ -1,0 +1,64 @@
+button{
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px;
+    height: 50px;
+    /* border-radius: 10px; */
+    /* border-top-left-radius: 50px; */
+    /* border-top-right-radius: 50px; */
+    /* border-bottom-left-radius: 50px; */
+    /* border-bottom-right-radius: 50px; */
+}
+
+/* p{
+    background-color: coral;
+} */
+.parent{
+    background-color: yellow;
+}
+.child{
+    background-color: aqua;
+    /* line-height: normal; */
+    /* line-height: 30px; */
+
+    /* lowercase/ uppercase / captalize */
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    text-transform: capitalize; 
+}
+
+#container h1{
+    /* text-align: center; */
+    /* text-align: left; */
+    /* text-align: start; */
+    /* text-align: right; */
+    /* text-align: end; */
+    text-align: center;
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: red dotted underline; */
+    /* text-decoration: red wavy underline; */
+    text-decoration: red dashed underline;
+
+}
+
+.parent a{
+    text-decoration: none;
+    color: blue;
+    /* FOnt width */
+    /* normal, bold, bolder, lighter */
+}
+
+.wrapper h1{
+    font-weight: normal; 
+}
+.wrapper h2{
+    font-weight: bold;
+}
+.wrapper h3{
+    font-weight: bolder;
+}
+
+
+
