@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    padding: 0;
+    margin: 0;
+}
+.box{
+     height: 500px;
+    width: 500px;
+}
+.box {
+   background-image: url(https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630);
+   /* cover of image */
+   background-size: cover; 
+   background-position: center;
+   opacity: 0.5;
+   
+}
+
+.gradient{
+    height: 300 px;
+    width: 700px;
+    background: linear-gradient(to right, red, blue);
+    box-shadow: 2px 8px 20px rgba(200,255,0,0.5)  /*-red, green, blue, alpha (opacity)-*/
+}
+
+.radial-gradient{
+    height: 600px;
+    width: 700px;
+    background: radial-gradient(circle, red,black, blue);
+}
+
+
+
+.conic-gradient{
+    height: 600px;
+    width: 700px;
+    background: conic-gradient(from 54deg, orange, green, pink);
+    
+}
+
+.box-1{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    
+}
+.a{
+    background-color: red;
+}
+.b{
+    background-color: green;
+}
+.c{
+    background-color: blue;
+}
+.d{
+    background-color: pink;
+}
+.e{
+    background-color: black;
+}
