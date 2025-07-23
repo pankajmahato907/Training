@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    gap: 4px;
+    grid-template-columns: repeat(5,1fr);  /*5 means  5 columsn and 1 frame mean auta frame*/
+    grid-template-rows: repeat(5,1fr);
+
+}
+
+.box{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    background-color: yellow;
+}
+
+.box2{
+    grid-area: 2/1/4/3; /*row start ,column start, row end, coulumn end*/
+    background-color: blueviolet;
+}
+
+.box3{
+    grid-area: 2/3/3/5; /*row start ,column start, row end, coulumn end*/
+    background-color: burlywood;
+}
+
+.box4{
+    grid-area: 2/5/4/6; /*row start ,column start, row end, coulumn end*/
+    background-color: green;
+}
+
+.box5{
+    grid-area: 3/3/5/5; /*row start ,column start, row end, coulumn end*/
+    background-color: gray;
+}
+
+.box6{
+    grid-area: 4/1/5/3; /*row start ,column start, row end, coulumn end*/
+    background-color: purple;
+}
+
+.box7{
+    grid-area: 4/5/5/6; /*row start ,column start, row end, coulumn end*/
+    background-color: red;
+}
+
+.box8{
+    grid-area: 5/1/6/6; /*row start ,column start, row end, coulumn end*/
+    background-color: pink;
+}

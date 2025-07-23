@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 900px;
+    width: 70vw;
+    border: 2px solid red;
+}
+
+.box{
+    height: 100px;
+    width: 600px;
+    margin: 10px;
+}
+
+.a{
+    background-color: aqua;
+}
+
+.b{
+    background-color: pink;
+    position: relative;
+    left: 200px;
+    top: 200px;
+}
+.c{
+    position: absolute;
+    background-color: brown;
+    bottom: 30px;
+    left: 60px;
+}
+
+.d{
+    position: sticky;
+    background-color: blueviolet;
+    top: 80px;
+}
+.e{
+    position: fixed;
+    background-color: green;
+}
