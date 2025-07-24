@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.box{
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box:hover{
+    background-color: blue;
+    border-radius: 20px;
+    color: red;
+    transform: translateX(200px);
+    transition-duration: 2s;
+    /* transition-timing-function: ease; */
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s;
+    
+}
