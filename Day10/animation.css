@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+    padding: 50px;
+  
+}
+
+.container{
+    text-align: center;
+}
+
+.box{
+    height: 150px;
+    width: 250px;
+    margin: 40px;
+    background-color: yellow;
+    border-radius: 7px;
+    position: relative;
+
+}
+
+.fade{
+    animation: fadeInOut 3s ease-in-out infinite;
+}
+
+.slide{
+    animation: slideRight 3s linear alternate infinite;
+}
+
+.bounce{
+    animation: bounce 3s ease infinite;
+}
+
+.rotate{
+    animation: rotate360  5s linear infinite;
+}
+
+.zoom{
+    animation: zoomInOut 5s ease-in-out infinite;
+}
+
+.color{
+    width: 450px;
+    animation: colorcycle 3s ease-in-out alternate infinite;
+}
+
+.flip{
+    animation: flip 3s ease-in-out infinite alternate;
+    
+}
+
+.skew{
+    animation: skewbox 3s ease-in-out infinite alternate;
+}
+
+.fourdirection{
+    animation: moveAround 5s linear infinite alternate;
+}
+
+
+@keyframes fadeInOut {
+    0%,
+    100%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.6;
+    }
+}
+
+@keyframes slideRight{
+    0%{
+        translate: translateX(0);
+    }
+    100%{
+        transform: translateX(400px);
+    }
+}
+
+@keyframes bounce{
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-40px);
+    }
+}
+
+@keyframes rotate360{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes zoomInOut{
+    0%, 100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.4);
+    }
+}
+
+@keyframes colorcycle{
+    0%{
+        transform: translateX(0);
+        background-color:  pink;
+    }
+    25%{
+        background-color: brown;
+    }
+
+    50%{
+        background-color: purple;
+    }
+
+    75%{
+        background-color: red;
+    }
+    100%{
+        transform: translateX(500px);
+        background-color: green;
+
+    }
+}
+
+
+@keyframes flip{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotateX(360deg);
+    }
+}
+
+@keyframes skewbox{
+    0%{
+        transform: skew(0deg, 0deg);
+    }
+    100%{
+        transform: skew(20deg, 15deg);
+    }
+}
+
+
+@keyframes moveAround{
+    0%{
+        transform: translate(0,0);
+        background-color: red;
+    }
+    25%{
+        transform: translate(200px, 0);
+        background-color: aqua;
+    }
+    50%{
+        transform: translate(200px, 200px);
+        background-color: green;
+    }
+    75%{
+        transform: translate(0,200px);
+        background-color: pink;
+    }
+    100%{
+        transform: translate(0,0);
+        background-color: blue;
+    }
+
+}
+
