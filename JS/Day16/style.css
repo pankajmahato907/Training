@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+}
+
+.stopwatch{
+    background-color: greenyellow;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 40px;
+    color: red;
+    margin-bottom: 30px;
+}
+
+.buttons{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#start{
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#stop{
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#reset{
+    background-color: pink;
+    padding: 5px;
+    border-radius: 5px;
+}
